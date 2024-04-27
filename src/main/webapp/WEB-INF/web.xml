@@ -69,4 +69,44 @@
     <servlet-name>UsaCookie</servlet-name>
     <url-pattern>/UsaCookie</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CreaContexto</display-name>
+    <servlet-name>CreaContexto</servlet-name>
+    <servlet-class>cl.clase_53.contexto.CreaContexto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreaContexto</servlet-name>
+    <url-pattern>/CreaContexto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UsaContexto</display-name>
+    <servlet-name>UsaContexto</servlet-name>
+    <servlet-class>cl.clase_53.contexto.UsaContexto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsaContexto</servlet-name>
+    <url-pattern>/UsaContexto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CreaAtributo</display-name>
+    <servlet-name>CreaAtributo</servlet-name>
+    <servlet-class>cl.clase_53.atributorequest.CreaAtributo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreaAtributo</servlet-name>
+    <url-pattern>/CreaAtributo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UsaAtributoRequest</display-name>
+    <servlet-name>UsaAtributoRequest</servlet-name>
+    <servlet-class>cl.clase_53.atributorequest.UsaAtributoRequest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsaAtributoRequest</servlet-name>
+    <url-pattern>/UsaAtributoRequest</url-pattern>
+  </servlet-mapping>
 </web-app>
