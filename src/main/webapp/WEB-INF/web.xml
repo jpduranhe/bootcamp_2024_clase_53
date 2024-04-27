@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <display-name>clase_53</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
   <servlet>
     <description></description>
     <display-name>ServletUno</display-name>
@@ -10,13 +19,54 @@
     <servlet-name>ServletUno</servlet-name>
     <url-pattern>/ServletUno</url-pattern>
   </servlet-mapping>
-  <display-name>clase_53</display-name>
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CreaSesion</display-name>
+    <servlet-name>CreaSesion</servlet-name>
+    <servlet-class>cl.clase_53.sesion.CreaSesion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreaSesion</servlet-name>
+    <url-pattern>/CreaSesion</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UsaSesion</display-name>
+    <servlet-name>UsaSesion</servlet-name>
+    <servlet-class>cl.clase_53.sesion.UsaSesion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsaSesion</servlet-name>
+    <url-pattern>/UsaSesion</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CierraSesion</display-name>
+    <servlet-name>CierraSesion</servlet-name>
+    <servlet-class>cl.clase_53.sesion.CierraSesion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CierraSesion</servlet-name>
+    <url-pattern>/CierraSesion</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CreaCookie</display-name>
+    <servlet-name>CreaCookie</servlet-name>
+    <servlet-class>cl.clase_53.cookie.CreaCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreaCookie</servlet-name>
+    <url-pattern>/CreaCookie</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UsaCookie</display-name>
+    <servlet-name>UsaCookie</servlet-name>
+    <servlet-class>cl.clase_53.cookie.UsaCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsaCookie</servlet-name>
+    <url-pattern>/UsaCookie</url-pattern>
+  </servlet-mapping>
 </web-app>
